@@ -1,0 +1,23 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 4px 16px; /* Reduzido o padding para 4px */
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Alinha o conteúdo verticalmente no centro */
+  z-index: 1000; /* Para garantir que o footer fique acima do conteúdo */
+  background-color: #1976d2; /* Cor de fundo da toolbar */
+  color: white; /* Cor do texto */
+  height: 40px; /* Defina uma altura fixa, se necessário */
+  font-size: 12px; /* Tamanho da fonte reduzido */
+}
+
+.spacer {
+  flex: 1 1 auto; /* Faz o espaço entre o texto e os links */
+}
+
+.footer a {
+  font-size: 12px; /* Tamanho da fonte dos links reduzido */
+}
